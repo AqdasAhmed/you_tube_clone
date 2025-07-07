@@ -1,0 +1,45 @@
+.container_yourvideo{
+    padding: 0.5rem;
+    color: white;
+}
+
+@media (max-width: 1200px) {
+  .container_yourvideo {
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .container_yourvideo {
+    padding: 0.25rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container_yourvideo {
+    padding: 0.18rem;
+    font-size: 0.93rem;
+  }
+  .Container_ShowVideoGrid {
+    gap: 10rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container_yourvideo {
+    padding: 0.12rem;
+    font-size: 0.91rem;
+  }
+  .Container_ShowVideoGrid {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container_yourvideo {
+    padding: 0.1rem;
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,172 @@
+.container3_chanel{
+    border-bottom: 3px solid rgba(1,26,96,0.692);
+    padding: 0.5rem;
+    color: whitesmoke;
+    position: relative;
+}
+.chanel_logo_chanel{
+    border: 10px solid rgba(49,7,219,0.66);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(92,135,4,0.769);
+}
+.chanel_logo_chanel b{
+    margin: auto;
+    font-size: 3rem;
+}
+.description_chanel{
+    text-align: center;
+}
+.description_chanel b{
+    font-size: 4rem;
+}
+.description_chanel p{
+    font-size: large;
+}
+.uploadbtn_chanel,.editbtn_chanel{
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    background-color: blue;
+    padding: 0.5rem;
+    border: 2px solid transparent;
+    border-radius: 0.5rem;
+    color: white;
+    transition: all 1s;
+    cursor: pointer;
+}
+.uploadbtn_chanel{
+    top: 4rem;
+}
+.uploadbtn_chanel:hover,.editbtn_chanel:hover{
+border: 2px solid;
+color: rgb(231,140,14);
+}
+
+@media (max-width: 1200px) {
+  .chanel_logo_chanel {
+    width: 4rem;
+    height: 4rem;
+    border-width: 8px;
+  }
+  .chanel_logo_chanel b {
+    font-size: 2.5rem;
+  }
+  .description_chanel b {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .container3_chanel {
+    padding: 0.4rem;
+  }
+  .chanel_logo_chanel {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-width: 6px;
+  }
+  .chanel_logo_chanel b {
+    font-size: 2rem;
+  }
+  .description_chanel b {
+    font-size: 2.2rem;
+  }
+  .description_chanel p {
+    font-size: medium;
+  }
+}
+
+@media (max-width: 768px) {
+  .container3_chanel {
+    padding: 0.3rem;
+  }
+  .chanel_logo_chanel {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-width: 4px;
+  }
+  .chanel_logo_chanel b {
+    font-size: 1.2rem;
+  }
+  .description_chanel b {
+    font-size: 1.5rem;
+  }
+  .description_chanel p {
+    font-size: small;
+  }
+  .uploadbtn_chanel,
+  .editbtn_chanel {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    right: 0.3rem;
+    top: 0.2rem;
+  }
+  .uploadbtn_chanel {
+    top: 2rem;
+    margin-top: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container3_chanel {
+    padding: 0.25rem;
+  }
+  .chanel_logo_chanel {
+    width: 2rem;
+    height: 2rem;
+    border-width: 3px;
+  }
+  .chanel_logo_chanel b {
+    font-size: 1rem;
+  }
+  .description_chanel b {
+    font-size: 1.1rem;
+  }
+  .description_chanel p {
+    font-size: x-small;
+  }
+  .uploadbtn_chanel,
+  .editbtn_chanel {
+    padding: 0.1rem;
+    font-size: 0.7rem;
+    right: 0.1rem;
+    top: 0.1rem;
+  }
+  .uploadbtn_chanel {
+    top: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container3_chanel {
+    padding: 0.1rem;
+  }
+  .chanel_logo_chanel {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-width: 2px;
+  }
+  .chanel_logo_chanel b {
+    font-size: 0.7rem;
+  }
+  .description_chanel b {
+    font-size: 0.8rem;
+  }
+  .description_chanel p {
+    font-size: xx-small;
+  }
+  .uploadbtn_chanel,
+  .editbtn_chanel {
+    padding: 0.05rem;
+    font-size: 0.6rem;
+    right: 0.05rem;
+    top: 0.05rem;
+  }
+  .uploadbtn_chanel {
+    top: 0.5rem;
+  }
+}

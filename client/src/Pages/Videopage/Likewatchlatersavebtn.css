@@ -1,0 +1,134 @@
+.btns_cont_videoPage {
+  display: flex;
+  flex-grow: 5;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn_VideoPage {
+  margin: auto 0;
+  display: flex;
+}
+.like_videoPage {
+  margin: 0.5rem;
+  display: flex;
+  cursor: pointer;
+}
+.btns_videoPage {
+  margin: auto 0.5rem;
+}
+
+.download_btn_videoPage {
+  margin: 0.5rem;
+  display: flex;
+  cursor: pointer;
+}
+
+.premium-modal {
+  z-index: 10000;
+  position: absolute;
+  justify-self: anchor-center;
+  align-self: anchor-center;
+  background: white;
+  padding-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border: thin solid #000;
+  width: 75%;
+}
+
+.premium-modal .modal-content {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+
+.premium-modal .modal-content h2 {
+  margin: 0;
+}
+
+.premium-modal .modal-content .premium-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+.premium-modal .modal-content .premium-notes{
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+@media (max-width: 1200px) {
+  .btns_cont_videoPage {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .btn_VideoPage,
+  .like_videoPage,
+  .download_btn_videoPage {
+    font-size: 0.6rem;
+  }
+  .btns_videoPage {
+    height: 0.9rem;
+    width: 0.9rem;
+  }
+}
+@media (max-width: 900px) {
+  .btns_cont_videoPage {
+    justify-content: flex-start;
+  }
+  .btns_VideoPage,
+  .like_videoPage,
+  .download_btn_videoPage {
+    margin: 0.25rem 0;
+  }
+  .btn_videoPage {
+    margin: 0.25rem 0;
+  }
+}
+@media (max-width: 768px) {
+  .btns_cont_videoPage {
+    gap: 0.3rem;
+  }
+  .btn_VideoPage,
+  .like_videoPage,
+  .download_btn_videoPage,
+  .btns_videoPage {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 600px) {
+  .btns_cont_videoPage {
+    gap: 0.2rem;
+  }
+  .btn_VideoPage,
+  .like_videoPage,
+  .download_btn_videoPage,
+  .btns_videoPage {
+    font-size: 0.6rem;
+  }
+}
+@media (max-width: 480px) {
+  .btns_cont_videoPage {
+    align-items: center;
+    gap: 0.15rem;
+  }
+  .btn_VideoPage,
+  .like_videoPage,
+  .download_btn_videoPage {
+    margin: 0.1rem 0;
+    font-size: 0.4rem;
+  }
+  .btns_videoPage {
+    height: 0.7rem;
+    width: 0.7rem;
+  }
+}

@@ -1,0 +1,122 @@
+.userProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.userDownloads {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.downloads-container .downloads-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.downloads-container .downloads-list li {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 21rem;
+  height: 18rem;
+  margin: 30px;
+}
+
+.downloads-container .downloads-list li .video_description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 95%;
+}
+
+.downloads-container .downloads-list li video {
+  height: auto;
+  object-fit: cover;
+}
+
+.download_delete {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.go-premium-btn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  background-color: gold;
+  border: none;
+  border-radius: 6px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.go-premium-btn:hover:enabled {
+  background-color: #ffcc00;
+}
+
+
+@media (max-width: 1200px) {
+  .downloads-container .downloads-list li {
+    width: 18rem;
+    height: 15rem;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .downloads-container .downloads-list li {
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .downloads-container .downloads-list li {
+    width: 18rem;
+    height: 16rem;
+    margin: 12px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .userProfile {
+    padding: 10px;
+  }
+  .downloads-container .downloads-list li {
+    width: 18rem;
+    height: 16rem;
+    margin: 10px 0;
+  }
+  .downloads-container .downloads-list li .video_description {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .downloads-container .downloads-list li {
+    width: 18rem;
+    height: 16rem;
+    margin: 5px 0;
+  }
+  .downloads-container .downloads-list li .video_description {
+    font-size: 0.9rem;
+  }
+}

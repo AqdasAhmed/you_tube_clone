@@ -1,0 +1,34 @@
+.Container_ShowVideoGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+  .Container_ShowVideoGrid {
+    gap: 16px;
+  }
+}
+@media (max-width: 900px) {
+  .Container_ShowVideoGrid {
+    flex-direction: row;
+    gap: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .Container_ShowVideoGrid {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .Container_ShowVideoGrid {
+    gap: 8px;
+  }
+}
+@media (max-width: 480px) {
+  .Container_ShowVideoGrid {
+    gap: 4px;
+  }
+}

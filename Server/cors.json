@@ -1,0 +1,8 @@
+[
+  {
+    "origin": ["https://play-tube-clone.netlify.app"],
+    "responseHeader": ["Content-Type", "Access-Control-Allow-Origin"],
+    "method": ["GET", "HEAD", "OPTIONS"],
+    "maxAgeSeconds": 3600
+  }
+]

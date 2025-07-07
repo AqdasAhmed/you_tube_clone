@@ -1,0 +1,216 @@
+.Container_Navbar {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  height: calc(3.5rem - 2px);
+  background-color: rgb(33, 33, 33);
+  justify-content: space-between;
+}
+.Burger_Logo_Navbar {
+  display: flex;
+  height: 3.3rem;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-evenly;
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border: 1 px solid transparent;
+  margin-left: 0.5rem;
+  margin-right: 0.7rem;
+  border-radius: 100%;
+}
+.burger p {
+  margin: 0.5px;
+  width: 1.2rem;
+  height: 0.1rem;
+  background-color: rgb(255, 244, 244);
+}
+.logo_div_Navbar {
+  display: flex;
+  text-decoration: none;
+}
+.logo_title_navbar {
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+.apps_Box {
+  width: 25px;
+  margin: auto 0.7rem;
+  height: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: space-around;
+}
+.appBox {
+  border: 1px solid white;
+  margin: 0.1rem;
+  width: 2px;
+  height: 2px;
+}
+.Auth_cont_Navbar {
+  width: fit-content;
+  margin: auto 0.5rem;
+  position: relative;
+  display: flex;
+}
+.Auth_Btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #3ea6ff;
+  background-color: rgb(36, 36, 36);
+  border: 2px solid;
+  margin: 0;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  height: 100%;
+}
+
+@media (max-width: 1200px) {
+  .Container_Navbar {
+    height: 3rem;
+  }
+  .Burger_Logo_Navbar {
+    height: 2.8rem;
+  }
+}
+@media (max-width: 900px) {
+  .Container_Navbar {
+    height: 1.7rem;
+    padding: 0.5rem 0;
+  }
+  .Burger_Logo_Navbar {
+    height: 2.5rem;
+    width: 20%;
+  }
+  .burger {
+    margin: 0.2rem 1rem;
+    padding: 0.2rem;
+  }
+  .logo_title_navbar {
+    font-size: 1rem;
+  }
+  .apps_Box {
+    width: 20px;
+    height: 20px;
+    margin: auto 0.3rem;
+  }
+  .Auth_cont_Navbar {
+    margin: 0.3rem 0.2rem;
+  }
+  .Auth_Btn {
+    padding: 0.3rem;
+    font-size: 0.9rem;
+  }
+  .Auth_cont_Navbar .Chanel_logo_App {
+    width: 2rem;
+    height: 2rem;
+  }
+  .Auth_cont_Navbar .Chanel_logo_App p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 768px) {
+  .Container_Navbar {
+    height: 3rem;
+    padding: 0.3rem 0;
+  }
+  .Burger_Logo_Navbar {
+    height: 2.2rem;
+  }
+  .logo_title_navbar {
+    font-size: 0.95rem;
+    text-wrap: nowrap;
+  }
+  .apps_Box {
+    margin: auto 0.2rem;
+  }
+  .Auth_Btn {
+    padding: 0.25rem;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 600px) {
+  .Container_Navbar {
+    height: 2.5rem;
+    padding: 0.2rem 0;
+  }
+  .Burger_Logo_Navbar {
+    height: 2rem;
+  }
+  .logo_title_navbar {
+    font-size: 0.9rem;
+  }
+  .apps_Box {
+    margin: auto 0.1rem;
+  }
+  .Auth_Btn {
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 480px) {
+  .Container_Navbar {
+    height: 2.5rem;
+    padding: 0.1rem 0;
+  }
+  .Burger_Logo_Navbar {
+    height: 1.7rem;
+  }
+  .burger {
+    margin: 0.1rem 0.5rem;
+    padding: 0.1rem;
+  }
+  .logo_title_navbar {
+    display: none;
+    font-size: 0.8rem;
+  }
+  .apps_Box {
+    margin: auto 0.05rem;
+  }
+  .Auth_Btn {
+    padding: 0.1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Container_Navbar {
+    height: 2.5rem;
+    padding: 0.05rem 0;
+  }
+  .Burger_Logo_Navbar {
+    height: 1.5rem;
+  }
+  .burger {
+    margin: 0.05rem 0.3rem;
+    padding: 0.05rem;
+  }
+  .logo_title_navbar {
+    display: none;
+    font-size: 0.7rem;
+  }
+  .apps_Box {
+    margin: auto 0.02rem;
+  }
+  .appBox {
+    width: 0.7px;
+    height: 0.7px;
+  }
+  .Auth_Btn {
+    padding: 0.05rem;
+    font-size: 0.6rem;
+  }
+  .Auth_cont_Navbar .Chanel_logo_App {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .Auth_cont_Navbar .Chanel_logo_App p {
+    font-size: 1rem;
+  }
+}

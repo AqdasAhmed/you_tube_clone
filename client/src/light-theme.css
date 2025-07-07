@@ -1,0 +1,315 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --border-color: #dee2e6;
+  --hover-color: #f8f9fa;
+}
+
+body[data-theme="light"] {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .Container_Navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .logo_title_navbar {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .burger p {
+  background-color: var(--text-color);
+}
+
+body[data-theme="light"] .container_yourvideo {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container_VidUpload {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body[data-theme="light"] .container2_VidUpload {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  box-shadow: 2px 2px var(--border-color), -2px -2px var(--border-color);
+}
+
+body[data-theme="light"] .btn_vidUpload {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .btn_vidUpload:hover {
+  color: var(--primary-color);
+}
+
+body[data-theme="light"] .container_videoPage {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .video_ShowVideo_videoPage {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+}
+
+body[data-theme="light"] .chanel_logo_videoPage {
+  background-color: var(--hover-color);
+  border: 1px solid var(--border-color);
+}
+
+body[data-theme="light"] .chanel_logo_videoPage p {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .navigation_Home {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+body[data-theme="light"] .btn_nav_home {
+  background-color: var(--background-color);
+}
+
+body[data-theme="light"] .btn_nav_home:hover {
+  background-color: var(--hover-color);
+}
+
+body[data-theme="light"] .container3_chanel {
+  border-bottom: 3px solid var(--border-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container3_chanel .chanel_logo_chanel b {
+  color: var(--background-color);
+}
+
+body[data-theme="light"] .uploadbtn_chanel,
+body[data-theme="light"] .editbtn_chanel {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+body[data-theme="light"] .uploadbtn_chanel:hover,
+body[data-theme="light"] .editbtn_chanel:hover {
+  color: var(--primary-color);
+  border: 2px solid var(--border-color);
+}
+
+body[data-theme="light"] .container_CreateEditChanel {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container2_CreateEditChanel {
+  background-color: var(--background-color);
+  opacity: 0.8;
+  border: 2px solid var(--border-color);
+  box-shadow: 2px 2px var(--text-color), -2px 2px var(--text-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container2_CreateEditChanel h1{
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container2_CreateEditChanel .ibox {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .Auth_container2 {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .btn_Auth {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .btn_Auth:hover {
+  background-color: var(--hover-color);
+}
+
+body[data-theme="light"] .container_libraryPage {
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .title_container_LibraryPage b {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container_videoList_LibraryPage {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container_leftSidebar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .icon_sidebar_div {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .icon_sidebar_div:hover,
+body[data-theme="light"] .icon_sidebar_div.active {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container_DrawaerLeftSidebar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body[data-theme="light"] .container2_DrawaerLeftSidebar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container3_DrawaerLeftSidebar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+body[data-theme="light"] .subScriptions_lsdbar {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .subScriptions_lsdbar h3 {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .chanel_lsdbar:hover {
+  color: var(--primary-color);
+}
+
+body[data-theme="light"] .chanel_lsdbar p {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .search_div {
+  background-color: var(--background-color);
+}
+
+body[data-theme="light"] .iBox_SearchBar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+body[data-theme="light"] .searchIcon_SearchBar {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .searchIcon_SearchBar:hover {
+  background-color: var(--border-color);
+}
+
+body[data-theme="light"] .Mic_SearchBar {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .vid_bell_Navbar {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .appBox {
+  border: 1px solid var(--text-color);
+}
+
+body[data-theme="light"] .app.light {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .container_Pages_App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .video_details p {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .video_details pre {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .chanel_details_videoPage {
+  border-bottom: 3px solid var(--border-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .comment_ibox {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+body[data-theme="light"] .box_WHL {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .box_WHL b {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .Auth_Btn {
+  background-color: var(--background-color);
+}
+
+body[data-theme="light"] .comment_add_btn_comments {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .userInfo {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .downloads-container h2 {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .like_dislike_translate span {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .translate_select {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .translate_select option {
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+body[data-theme="light"] .ibtn_x {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .download_delete{
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .ibox_vidupload {
+  color: var(--text-color);
+}
+
+body[data-theme="light"] .rightSide_whl h1 {
+  color: var(--text-color);
+}

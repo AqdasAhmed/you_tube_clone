@@ -1,0 +1,174 @@
+.container_VidUpload {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  display: flex;
+}
+.container2_VidUpload {
+  box-shadow: 2px 2px rgba(142, 142, 142, 0.681),
+    -2px -2px rgba(142, 142, 142, 0.681);
+  padding: 1rem;
+  width: fit-content;
+  height: fit-content;
+  background-color: black;
+  color: rgb(136, 133, 129);
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+.ibox_vidupload {
+  margin: 0.5rem;
+  font-size: larger;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0.2rem;
+  color: aliceblue;
+  width: calc(100% - 2rem);
+}
+.ibox_div_vidupload {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  flex-direction: column;
+  width: 100%;
+}
+.btn_vidUpload {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  border: 2px solid;
+}
+
+.btn_vidUpload:hover {
+  color: orange;
+}
+
+.loader {
+  width: 7rem;
+  height: 7rem;
+  padding: 2rem 0;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container2_VidUpload {
+    width: 60vw;
+    padding: 0.8rem;
+  }
+  .ibox_vidupload {
+    font-size: large;
+    width: 80%;
+  }
+  .loader {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid #adff2f;
+  border-top: 6px solid #3e98c7;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.upload-steps {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.85rem;
+}
+.upload-steps .step {
+  flex: 1;
+  text-align: center;
+  color: #888;
+}
+.upload-steps .step.active {
+  font-weight: 600;
+  color: orange;
+}
+.upload-steps .step.done {
+  font-weight: 600;
+  color: #3ad738;
+}
+
+@media (max-width: 900px) {
+  .container2_VidUpload {
+    width: 80vw;
+    padding: 0.7rem;
+  }
+  .ibox_vidupload {
+    font-size: medium;
+    width: 90%;
+  }
+  .loader {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container2_VidUpload {
+    width: 98vw;
+    padding: 0.6rem;
+    border-radius: 0.7rem;
+  }
+  .ibox_vidupload {
+    font-size: small;
+    width: 95%;
+    height: 2rem;
+    padding: 0.08rem;
+  }
+  .loader {
+    width: 4.5rem;
+    height: 4.5rem;
+    padding: 0.8rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .container2_VidUpload {
+    width: 95vw;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .ibox_vidupload {
+    font-size: medium;
+    width: 90%;
+    padding: 0.1rem;
+  }
+  .loader {
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container2_VidUpload {
+    width: 100vw;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+  }
+  .ibox_vidupload {
+    font-size: x-small;
+    width: 98%;
+    padding: 0.05rem;
+  }
+  .loader {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 0;
+  }
+}

@@ -1,0 +1,124 @@
+.Chanel_logo_App{
+  width: 2.2rem;  
+  height: 2.2rem;
+  margin: auto;
+  border-radius: 100%;
+  background-color: rgb(224,227,214);
+  display: flex;
+}
+.fstChar_logo_App{
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container_Pages_App{
+  display: flex;
+  background-color: rgb(19,19,19);
+}
+.container2_Pages_App{
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  border-top: 2px solid rgb(128,128,128,0.45);
+  overflow-y: auto;
+}
+.video_box_app{
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+}
+video {
+  background-color: rgba(8,8,8,0.662);
+}
+.dot{
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: white;
+  margin: auto 0.5rem;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+  .video_box_app {
+    width: 18rem;
+    height: 14rem;
+  }
+  .container2_Pages_App {
+    width: calc(100vw - 4rem);
+  }
+}
+
+@media (max-width: 900px) {
+  .video_box_app {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .container2_Pages_App {
+    width: 100vw;
+    height: calc(100vh - 3.65rem);
+  }
+}
+
+@media (max-width: 768px) {
+  .video_box_app {
+    width: 50vw;
+    height: 40vh;
+  }
+  .container2_Pages_App {
+    width: 100vw;
+    height: auto;
+    border-top: none;
+  }
+  .Chanel_logo_App {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .video_box_app {
+    width: 80vw;
+    height: 80vh;
+    margin-bottom: 0.3rem;
+  }
+  .container2_Pages_App {
+    width: 100vw;
+    height: auto;
+    border-top: none;
+  }
+  .Chanel_logo_App {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .video_box_app {
+    width: 60vw;
+    height: 50vh;
+    margin-bottom: 0.3rem;
+  }
+  .container2_Pages_App {
+    width: 100vw;
+    height: auto;
+    border-top: none;
+    padding: 0.2rem;
+  }
+  .Chanel_logo_App {
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+}
