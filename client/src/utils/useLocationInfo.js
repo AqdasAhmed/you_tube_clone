@@ -28,7 +28,10 @@ export const getUserLocation = async () => {
         }
     }
     try {
-        const res = await fetch('https://play-tube-clone.onrender.com/user/location');
+        // const res = await fetch('https://play-tube-clone.onrender.com/user/location');
+        const res = await fetch("https://ipinfo.io/json?token=REACT_APP_IP_INFO_TOKEN");
+        const data = await res.json();
+        console.log(data.city, data.region);
         if (!res.ok) throw new Error('Failed to fetch location from ipinfo.io');
         const { city, state } = await res.json();
         if (city || state) {
